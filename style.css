@@ -1,0 +1,61 @@
+*{
+
+}
+
+body{
+
+}
+
+form{
+    font-family: 'Architects Daughter', cursive;
+    background-color: #D78B84;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+form input[type="text"]{
+  width: 100vh;
+  height: 2vw;
+  
+}
+
+form input[type=submit]{
+  height: 5vh;
+  background-color: lightgray;
+  border-radius: 4px;
+  text-align: center;
+}
+
+ #toDoList {
+    font-family: 'Architects Daughter', cursive;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 5px;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+    #toDoList ul li.checked{
+    text-decoration: line-through;
+    background: #AD706A;
+  }
+   #toDoList ul{
+    list-style: none;
+  }
+
+   #toDoList li {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+   #toDoList li:hover {
+    background-color: #D78B84;
+  }
+
+   #toDoList .closeBtn{
+    position: absolute;
+    right: 78vh;
+    top: 14.2vw;
+    color: black;
+ }

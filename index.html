@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+</head>
+<body>
+   
+    <!-- structure of the form -->
+<form name="list">
+        <h2>To Do List</h2>
+        <input type="text" name="task" placeholder="things to do...">
+        <input type="submit" name="savetaskBtn" value=" Add new"/>
+</form>
+
+<!-- this is where the clone is appedet to from the script and there after showen in the DOM-->
+<main></main>
+
+<!-- structur of the tempalet, what is dispalyed in the main when cloned from the script -->
+
+<div id="toDoList">
+        <ul>
+            <!-- this is checkt off from start to let user know that you can do this -->
+            <li class="checked">wake up</li>
+            <li class="new_task"></li>
+            <li></li>
+            <button class="closeBtn">X</button>
+        </ul>           
+</div>
+
+
+    <script src="toDoList.js"></script>
+</body>
+</html>
